@@ -7,10 +7,10 @@ In-order to perform classification, it make uses of OpenCV SIFT (Patent by Googl
 [Check here for more information on solving SIFT patent-ed by Google on OpenCV.](https://stackoverflow.com/questions/52305578/sift-cv2-xfeatures2d-sift-create-not-working-even-though-have-contrib-instal)
 
 
-### Google Colab Files
+### Repository Files
 In this repository, there are multiple steps involved to perform Classification on NPU-RESISC45, in-order to perform classification, kindly run them in-order:
-1. Codeblock_Creation.ipynb - This will create a code block that is pickled with SIFT
-2. Classifcation.ipynb - This will perform classification using the codeblock created on Step (1), then it will performs classification using SVM, Random Forest.
+1. Codebook.ipynb - This will create a code block that is pickled with SIFT, example of Codebook Pickled Object are uploaded as <b>codebook.pkl</b>
+2. Classifcation.ipynb - This will perform classification using the codebook created on Step (1), then it will performs classification using SVM, Random Forest.
 
 ### Accuracy
 There are multiple classification model used, which turns into multiple results.
