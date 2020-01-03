@@ -12,7 +12,9 @@ In this repository, there are multiple steps involved to perform Classification 
 1. Codebook.ipynb - This will create a code block that is pickled with SIFT, example of Codebook Pickled Object are uploaded as <b>codebook.pkl</b>
 2. Classifcation.ipynb - This will perform classification using the codebook created on Step (1), then it will performs classification using SVM, Random Forest.
 
-### Accuracy
+### Model
 There are multiple classification model used, which turns into multiple results.
 
-The baseline used are SIFT feature extracted, then uses Keras SVM, Keras Random Forest.
+Where it includes:
+1. VGG (Fine tuning)
+2. SIFT Extractor 
